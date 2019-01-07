@@ -8,7 +8,7 @@ La tarea solicita:
 > HTML
 > 
 > - Etiquetes semàntiques d'HTML 5 ( <header>,<footer>, <article>, <section>, <aside>...)
-> - Regions desplegables amb <details> i <summary>
+> - Regions desplegables amb '<details>' i '<summary>'
 > - Navegació interna amb <nav> i àncores. 
 > - Llistes i taules.
 > - Material multimèdia (imatge i vídeo)
