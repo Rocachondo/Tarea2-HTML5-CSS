@@ -5,7 +5,7 @@ La tarea solicita:
 
 > Triau un tema que us interessi i creau-hi un lloc web d'una sola pàgina HTML i un full d'estil extern. Ha d'usar els elements següents.
 > 
-> ###HTML
+> HTML
 > 
 > Etiquetes semàntiques d'HTML 5 ( <header>,<footer>, <article>, <section>, <aside>...)
 > Regions desplegables amb <details> i <summary>.
@@ -13,7 +13,7 @@ La tarea solicita:
 > Llistes i taules.
 > Material multimèdia (imatge i vídeo)
 > 
-> ###CSS
+> CSS
 > 
 > Text: mida de la font, tipus de lletra.
 > Color de fons als títols h1, h2...
