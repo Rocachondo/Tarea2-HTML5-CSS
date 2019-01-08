@@ -45,3 +45,4 @@ Usando estas premisas como referencia, iré dando forma a la web desde la versi�
 ### Versión 0.2 CSS básico
 
 - Con la carpeta css y el archivo theme.css subido, se edita el archivo para dar forma a la página.
+- El posicionamiento de los compartimentos está siendo un desastre, al igual que el esquema de colores... Estaba tratando de adaptar unas plantillas del curso pasado pero no está dando buen resultado. Además, la web de raw.githack tarda demasiado en actualizar las modificaciones... Lo mejor será continuar mañana, repasar a fondo las opciones de posición, ancho, largo y empezar desde cero, probablemente tarde mucho menos en acabar esta parte. También probaré a a migrar el repositorio a pages.github que en teoría los cambios son automáticos. 
