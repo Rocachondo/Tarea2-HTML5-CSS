@@ -8,6 +8,8 @@ body {
   background-color: #2D3336;
   font-family: verdana;
   font-size: 20px;
+  width: 85%;
+  right: 0px;
   /*background-image:url("../img/a.jpg");
   background-color:black;
   background-repeat:no-repeat;
@@ -15,21 +17,22 @@ body {
 }
 
 aside {
-  background-color:transparent;
+  background-color: blue;
   display:inline-block;
-  width:20%;
-  height:75%;
+  width:15%;
+  height:100%;
   float:left;
   position:fixed;
   left:0px;
 }
 
 footer {
-  background-color:transparent;
-  height:5%;
-  width:100%;
+  background-color:pink;
+  height: 5%;
+  width: 85%;
   position:fixed;
   bottom:0px;
+  right: 0px;
   /*z-index:-1;*/
 }
 
