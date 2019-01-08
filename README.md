@@ -29,3 +29,9 @@ La tarea solicita:
 > - 2 punts. Elements avançats, com ara gràfics SVG, <canvas> o animacions i transicions.
 > 
 > Pujau els vostres arxius a github i creau-hi un accés amb qualque servei com https://raw.githack.com o  https://pages.github.com/.
+
+Usando estas premisas como referencia, iré dando forma a la web desde la versión 0.1 hasta la final, documentando los pasos más relevantes del proceso.
+
+### Versión 0.1, HTML
+
+Se crea la estructura básica HTML con las etiquetas semánticas propias de HTML5.
