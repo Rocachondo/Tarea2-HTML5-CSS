@@ -15,11 +15,12 @@ La tarea solicita:
 > 
 > CSS
 > 
-> Text: mida de la font, tipus de lletra.
-> Color de fons als títols h1, h2...
-> Model de caixa (padding, border, margin, outline)
-> Vores arrodonides en alguns elements.
-> Pseudo-classes dels enllaços.
+> - Text: mida de la font, tipus de lletra.
+> - Color de fons als títols h1, h2...
+> - Model de caixa (padding, border, margin, outline)
+> - Vores arrodonides en alguns elements.
+> - Pseudo-classes dels enllaços.
+> 
 > Puntuació
 > 
 > 6 punts. Totes les especificacions anteriors.
