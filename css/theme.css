@@ -10,8 +10,8 @@ header {
   width: 85%;
   height: 100%;
   float: top;
-  position:fixed;
-  top:0px;
+  position: fixed;
+  top: 0px;
 }
 
 body {
@@ -38,11 +38,14 @@ aside {
 
 footer {
   background-color:pink;
+  font-color: black;
+  text-align: center;
   height: 5%;
   width: 85%;
-  position:fixed;
-  bottom:0px;
+  /*position: fixed;*/
+  bottom: 0px;
   right: 0px;
+ 
   /*z-index:-1;*/
 }
 
