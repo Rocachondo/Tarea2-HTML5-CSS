@@ -4,6 +4,19 @@
   margin:0px
 }*/
 
+body {
+  background-color: #2D3336;
+  font-family: verdana;
+  font-size: 20px;
+  width: 85%;
+  right: 0px;
+  position: fixed;
+  /*background-image:url("../img/a.jpg");
+  background-color:black;
+  background-repeat:no-repeat;
+  position:fixed;*/
+}
+
 header {
   background-color: black;
   /*display: inline-block;*/
@@ -12,18 +25,6 @@ header {
   float: top;
   position: fixed;
   top: 0px;
-}
-
-body {
-  background-color: #2D3336;
-  font-family: verdana;
-  font-size: 20px;
-  width: 85%;
-  right: 0px;
-  /*background-image:url("../img/a.jpg");
-  background-color:black;
-  background-repeat:no-repeat;
-  position:fixed;*/
 }
 
 aside {
