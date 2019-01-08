@@ -33,9 +33,15 @@ La tarea solicita:
 Usando estas premisas como referencia, iré dando forma a la web desde la versión 0.1 hasta la final, documentando los pasos más relevantes del proceso. Se conservarán los distintos index en el directorio raiz y se irá comprobando con el validor para asegurarme que estoy construyendo una web sólida y funcional.
 
 
-### Versión 0.1, HTML
+### Versión 0.1 HTML básico
 
 - Se crea la estructura básica HTML con las etiquetas semánticas propias de HTML5.
 - Se trata de una versión sumamente precaria desde la que se irá construyendo el sitio. La idea es que haya un navegador inicial, un bloque pequeño lateral y un cuerpo principal dividido en 4 secciones principales donde se irán colgando los diferentes artículos.
-- Finalmente se decide trabajar con un único index y crear una nueva carpeta con los index antiguos que se irán guardando.
-- https://raw.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/indexv0.1.html
+- Finalmente se decide trabajar con un único index y crear una nueva carpeta con los index antiguos que se irán guardando. La idea es que más adelante se pueda acceder a ellos desde la propia web.
+- Con la estructura más o menos definida, se valida y comprueba que está todo correcto.
+- https://raw.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/oldindex/index0.1.html
+
+
+### Versión 0.2 CSS básico
+
+- Con la carpeta css y el archivo theme.css subido, se edita el archivo para dar forma a la página.
