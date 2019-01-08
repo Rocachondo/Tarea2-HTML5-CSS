@@ -4,6 +4,16 @@ body,html {
   margin:0px
 }
 
+header {
+  background-color: green;
+  display: inline-block;
+  width: 85%;
+  height: 100%;
+  float: top;
+  position:fixed;
+  top:0px;
+}
+
 body {
   background-color: #2D3336;
   font-family: verdana;
