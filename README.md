@@ -30,8 +30,10 @@ La tarea solicita:
 > 
 > Pujau els vostres arxius a github i creau-hi un accés amb qualque servei com https://raw.githack.com o  https://pages.github.com/.
 
-Usando estas premisas como referencia, iré dando forma a la web desde la versión 0.1 hasta la final, documentando los pasos más relevantes del proceso.
+Usando estas premisas como referencia, iré dando forma a la web desde la versión 0.1 hasta la final, documentando los pasos más relevantes del proceso. Se conservarán los distintos index en el directorio raiz y se irá comprobando con el validor para asegurarme que estoy construyendo una web sólida y funcional.
 
 ### Versión 0.1, HTML
 
 Se crea la estructura básica HTML con las etiquetas semánticas propias de HTML5.
+Se trata de una versión sumamente precaria desde la que se irá construyendo el sitio. La idea es que haya un navegador inicial, un bloque pequeño lateral y un cuerpo principal dividido en 4 secciones principales donde se irán colgando los diferentes artículos.
+https://raw.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/indexv0.1.html
