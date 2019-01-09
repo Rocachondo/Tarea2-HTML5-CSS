@@ -1,59 +1,117 @@
-/*body,html {
-  height:100%;
+body,html {
+    background-color: dimgrey;
+  /*height:100%;
   padding:0px;
-  margin:0px
-}*/
+  margin:0px*/
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    text-align: center;
+    height: 7em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 20px;
+    /*padding: em;*/
+    text-shadow: 2px 5px 5px gray;
+    z-index: 1;
+}
+
+aside {
+    background-color: floralwhite;
+    position: fixed;
+    /*float: left;*/
+    margin: 0.5em;
+    top: 7em;
+    bottom: 2em;
+    left: 0em;
+    margin-bottom: 0.7em;
+    width: 20%;
+    /*height: 50%;*/
+    border-radius: 10px;
+    z-index: 1;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    border-radius: 10px;
+    text-align: left;
+    text-align: center;
+    font-size: 0.6em;
+  /*height: 5%;
+  width: 85%;*/
+  /*right: 0px;*/
+}
 
 body {
-  background-color: #2D3336;
+  /*background-color: transparent;*/
+    position: relative;
+    /*top: 7em;
+    left: 20%;
+    margin: 1.5em;*/
   font-family: verdana;
   font-size: 20px;
-  width: 85%;
-  right: 0px;
-  position: fixed;
+  /*width: 100%;*/
+  /*right: 0px;*/
+    /*border: 10px;*/
+  /*position: fixed;*/
   /*background-image:url("../img/a.jpg");
   background-color:black;
   background-repeat:no-repeat;
   position:fixed;*/
 }
 
-header {
-  background-color: black;
-  /*display: inline-block;*/
-  width: 85%;
-  height: 15%;
-  float: top;
-  position: fixed;
-  top: 0px;
+.mainblock {
+    position: absolute;
+    top: 6em;
+    left: 20%;
+    margin-left: 2em;
 }
 
-aside {
-  background-color: blue;
-  display:inline-block;
-  width:15%;
-  height:100%;
-  float:left;
-  position:fixed;
-  left:0px;
+section {
+    position: relative;
+    right: 1em;
+    /*width: 70%;
+    margin-left: 1em;
+    /*border-color: orange;*/
+    border-radius: 20px;
 }
 
-footer {
-  background-color:pink;
-  font-color: black;
-  text-align: center;
-  height: 5%;
-  width: 85%;
-  /*position: fixed;*/
-  bottom: 0px;
-  right: 0px;
- 
-  /*z-index:-1;*/
+/*.a {
+    position: absolute;
+    top: 10em;
+    right: 1em;
+    width: 40%;
+    margin-left: 1em;
+    /*border-color: orange;*/
+    border-radius: 20px;
+}*/
+
+article {
+    position: relative;
+    border-color: orange;
+    border-radius: 20px;    
 }
+
+
 
 h1 {
   color: #F1822B;
-  text-align: center;
-  font-size: 40px;
+  /*text-align: center;*/
+  font-size: 2em;
 }
 
 h2 {
