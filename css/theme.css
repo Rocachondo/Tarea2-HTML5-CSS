@@ -1,8 +1,10 @@
-body,html {
-    background-color: dimgrey;
-  /*height:100%;
-  padding:0px;
-  margin:0px*/
+body, html {
+    background-color: black;
+    background-image: url("/img/fondo.jpg");
+    background-repeat: repeat, no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -16,25 +18,36 @@ header {
     margin-left: 0.5em;
     margin-right: 0.5em;
     border-radius: 20px;
-    /*padding: em;*/
-    text-shadow: 2px 5px 5px gray;
+    border: 3px red solid;
+    text-shadow: 4px 5px 4px gray;
     z-index: 1;
 }
 
+body {
+    background-color: transparent;
+    position: relative;
+    font-family: verdana;
+    font-size: 1.2em;
+}
+
 aside {
-    background-color: floralwhite;
+    background-color: transparent;
     position: fixed;
-    /*float: left;*/
     margin: 0.5em;
     top: 7em;
     bottom: 2em;
     left: 0em;
     margin-bottom: 0.7em;
     width: 20%;
-    /*height: 50%;*/
     border-radius: 10px;
-    z-index: 1;
+    border: 3px red solid;
+    text-align: center;
+    color: orangered;
+    font-family:fantasy;
+    font-size: 1em;
 }
+
+
 
 footer {
     background-color: black;
@@ -42,12 +55,11 @@ footer {
     bottom: 0em;
     left: 0em;
     right: 0em;
-    margin-right: 0.5em;
+    margin-right: 0.3em;
     margin-left: 0.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
     /*width: 100%;*/
     /*height: 100%;*/
-    border-radius: 10px;
     text-align: left;
     text-align: center;
     font-size: 0.6em;
@@ -56,49 +68,28 @@ footer {
   /*right: 0px;*/
 }
 
-body {
-  /*background-color: transparent;*/
-    position: relative;
-    /*top: 7em;
-    left: 20%;
-    margin: 1.5em;*/
-  font-family: verdana;
-  font-size: 20px;
-  /*width: 100%;*/
-  /*right: 0px;*/
-    /*border: 10px;*/
-  /*position: fixed;*/
-  /*background-image:url("../img/a.jpg");
-  background-color:black;
-  background-repeat:no-repeat;
-  position:fixed;*/
-}
-
 .mainblock {
     position: absolute;
     top: 6em;
     left: 20%;
     margin-left: 2em;
+    margin-top: 1em;
+    
 }
 
 section {
     position: relative;
     right: 1em;
+    margin-right: -0.9em;
     /*width: 70%;
     margin-left: 1em;
     /*border-color: orange;*/
     border-radius: 20px;
+    border: 3px red solid;
+    border-spacing: 3em;
+    padding: 1em;
 }
 
-/*.a {
-    position: absolute;
-    top: 10em;
-    right: 1em;
-    width: 40%;
-    margin-left: 1em;
-    /*border-color: orange;*/
-    border-radius: 20px;
-}*/
 
 article {
     position: relative;
@@ -106,48 +97,86 @@ article {
     border-radius: 20px;    
 }
 
+nav {
+    text-shadow: 4px 5px 4px gray;
+    background-color: black;
+    text-align: left;
+    display: block;
+}
+
+.float {
+    float: left;
+    margin-top: 0.3em;
+    margin-left: 0.7em;
+}
 
 
 h1 {
-  color: #F1822B;
-  /*text-align: center;*/
+  color: red;
+  text-align: center;
   font-size: 2em;
 }
 
 h2 {
-  color: #EC3706;
+  color: darkorange;
   text-align: center;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 h3 {
-  color: #7B85C8;
-  text-align: center;
-  font-size: 28px;
+    color: ghostwhite;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 + h3 {
+    margin-top: -0.5em;
 }
 
 p {
   color: #C9CFD3;
+    background-color: black;
 }
 
-/*
-p.hidden {
-  display: none;
-}
-  
-div:hover p.hidden {
-    display: block;
-}
-
+/* unvisited link */
 a:link {
-  color: #F1822B;
-  font-size: 20px;
-  text-decoration: none;
+    color: red;
+    text-decoration: none;
 }
 
-img {
-  display: block;
-  margin: auto;
-*/
+/* visited link */
+a:visited {
+    color: darkorange;
+    text-decoration: none;
+}
 
-/*.c{background-color:transparent;display:inline-block;width:33.33%;height:75%;float:right;position:fixed;right:0px}*/
+/* mouse over link */
+a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 0.5em;
+}
+
+#video, video{
+    /*position: relative;*/
+    margin-top: 1em auto;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    width: 50%;
+    /*border: 2px solid red;*/
+    /*outline-style: solid;
+    outline-color: invert;*/
+    /*width: 337px;
+    height: 600px;*/
+    /*float: left;*/
+}
