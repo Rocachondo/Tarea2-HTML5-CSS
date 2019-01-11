@@ -14,9 +14,9 @@
 }
  
 body {
+    	background-image:url("/img/fondo.jpg");
+   	background-attachment:fixed;
 	background-color:black;
-    background-image:url("/img/fondo.jpg");
-    background-attachment:fixed;
 }
  
 header {
