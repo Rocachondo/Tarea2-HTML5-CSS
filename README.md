@@ -50,3 +50,18 @@ Usando estas premisas como referencia, iré dando forma a la web desde la versi�
 - Se actualiza theme.css, index.html y se crea el index0.2.html
 - Por algún motivo que desconozco, githack no está aplicando el CSS como sí hacía ayer, y solo muestra el código html. igualmente, es una versión de la web ciertamente lamentable todavía, pero al menos la estructura principal ya está definida:
 https://raw.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/oldindex/index0.2.html
+
+### Versión 0.3 HTML + CSS funcional
+
+- El uso de Brackets acelera considerablemente el proceso de creación y realización de pruebas.
+- Se agreaga diverso contenido y se realizan pruebas. Tras mucho tiempo y esfuerzo, no se consigue crear una estructura sólida.
+
+
+### Versión final HTML + CSS
+
+- Finalmente se opta por volver a hacer el diseño de la web con capas utilizando box-sizing y flexbox. Invertí bastantes horas en documentarmente sobre ésto, pero mereción la pena.
+- Se introducen todos los apartados solicitados en la práctica.
+- Se validan los archivos locales index.html y theme.css, sin embargo, al tratar de hacerlo por url a través de github da fallo. Se opta por validar el código directamente y se suben 2 screenshot a la carpeta validation.
+
+
+Espero que sea de su agrado, saludos!
