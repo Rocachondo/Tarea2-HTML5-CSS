@@ -62,6 +62,8 @@ https://raw.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/oldindex/index0.2.htm
 - Finalmente se opta por volver a hacer el diseño de la web con capas utilizando box-sizing y flexbox. Invertí bastantes horas en documentarmente sobre ésto, pero mereción la pena.
 - Se introducen todos los apartados solicitados en la práctica.
 - Se validan los archivos locales index.html y theme.css, sin embargo, al tratar de hacerlo por url a través de github da fallo. Se opta por validar el código directamente y se suben 2 screenshot a la carpeta validation.
+- Tras varias pruebas, se observa que el fondo de pantalla no se ve a través del enlace de githack porque github redimensiona el archivo a un ancho máximo de 600px, cuando su tamaño real es de 1920px... Pero bueno, entiendo que es una limitación de esta plataforma y no se puede hacer nada al respecto, así que quedará en los bordes un fondo negro:
 
+https://rawcdn.githack.com/Rocachondo/Tarea2-HTML5-CSS/master/index.html
 
 Espero que sea de su agrado, saludos!
